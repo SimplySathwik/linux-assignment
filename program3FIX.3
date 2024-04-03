@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int numerator = 10;
+    int denominator = 2;
+
+    // Check if the denominator is not zero before division
+    if (denominator != 0) {
+        int result = numerator / denominator;
+        printf("%d", result);
+    } else {
+        printf("Cannot divide by zero.\n");
+    }
+
+    return 0;
+}
